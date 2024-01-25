@@ -1,0 +1,32 @@
+.navbar-container {
+    background-color: #8a4dff; /* Purple background color */
+    padding: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-link:hover {
+    color: #5e35b1; /* Darker purple color on hover */
+  }
+  
+  .purple-theme {
+    background-color: #5e35b1; /* Darker purple background color for logged-in state */
+  }
+  
